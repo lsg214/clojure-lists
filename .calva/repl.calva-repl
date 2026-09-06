@@ -1,0 +1,14 @@
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+clj꞉user꞉> 
+( + 2 3)
+clj꞉user꞉> 
+(first '(a b c))
+clj꞉user꞉> 
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+clj꞉user꞉> 
+'((a b) (c d))
+clj꞉user꞉> 
+(first '((a b) (c d)))
+clj꞉user꞉> 
+(rest '(a b c))
+clj꞉user꞉> 
