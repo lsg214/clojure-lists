@@ -12,3 +12,65 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 (rest '(a b c))
 clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:68:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:67:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:67:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:67:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:67:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:67:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:67:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:66:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:68:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:68:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (lists.clj:68:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev listnum)
+; Syntax error compiling at (cs378.clj:290:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(stddev listnum)
+; Syntax error compiling at (cs378.clj:289:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+clj꞉user꞉> 
+(stddev lstnum)
+; Syntax error compiling at (cs378.clj:288:1).
+; Unable to resolve symbol: stddev in this context
+clj꞉user꞉> 
