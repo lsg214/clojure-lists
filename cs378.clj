@@ -370,7 +370,7 @@
           (- (myeval (lhs tree))) ;; if the right-hand side is nil, return the negation
           (- (myeval (lhs tree)) (myeval (rhs tree)))) ;; otherwise, return the difference
       + (+ (myeval (lhs tree)) (myeval (rhs tree)))
-      * (* (myeval (lhs tree)) (myeval (rhs tree))) ;; Note: Changed + to * for multiplication
+      * (* (myeval (lhs tree)) (myeval (rhs tree))) 
       / (/ (myeval (lhs tree)) (myeval (rhs tree)))
       expt (Math/pow (myeval (lhs tree)) (myeval (rhs tree)))
       sqrt (Math/sqrt (myeval (lhs tree)))

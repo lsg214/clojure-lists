@@ -74,3 +74,7 @@ clj꞉user꞉> 
 ; Syntax error compiling at (cs378.clj:288:1).
 ; Unable to resolve symbol: stddev in this context
 clj꞉user꞉> 
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+clj꞉user꞉> 
+(stddev lstnum)
+clj꞉user꞉> 
